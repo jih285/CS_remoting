@@ -16,5 +16,6 @@ namespace RemotingObjects
         String CreateRoom(String name);
         String joinRoom(String name, String room);
         DateTime msgUpdatedTime(String room);
+        String getallrooms();
     }
 }
